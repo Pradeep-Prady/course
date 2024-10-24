@@ -22,10 +22,7 @@ const routes = createBrowserRouter([
         path: "courses",
         element: <Courses />,
       },
-      {
-        path: "/courses/:id",
-        element: <EditCourseForm />,
-      },
+     
       {
         path: "forum",
         element: <Forum />,
